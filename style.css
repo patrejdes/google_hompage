@@ -1,7 +1,15 @@
 body {
     padding: 0px;
     margin: 0px;
+    font-family: arial,sans-serif;
+    
+    font-size: 14px;
 }
+a {
+    text-decoration: none;
+    color: #5F6368;
+}
+
 nav {
     
     padding: 15px;
@@ -14,11 +22,15 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    line-height: 25px;
+    text-align: center;
+    
 }
 
 nav a {
     display: block;
     width: 60px;
+    color: black;
 }
 
 .nav-left {
@@ -27,16 +39,19 @@ nav a {
 
 .nav-left ul li {
     float: left;
+   
 }
 
 .nav-right ul li {
     float: right;
 }
 .sign-in{
-    background-color: blue;
+    background-color: #2770e6;
     color: rgb(234, 234, 243);
     height: 30px;
-    border-radius: 5px;
+    border-radius: 1px;
+    font-weight: bold;
+    width: 65px;
 }
 .google {
     display: flex;
@@ -59,24 +74,24 @@ nav a {
 .search-icon {
     position: absolute;
     top: 8px;
-    left: 444px;
+    left: 700px;
     opacity: 0.4;
 }
 .mike {
     position: absolute;
     height: 28px;
     top: 7px;
-    left: 947px;
+    left: 1194px;
 }
 .b-search {
     position: absolute;
     top: 420px;
-    left: 530px;
+    left: 790px;
 }
 .lucky{
     position: absolute;
     top: 420px;
-    left: 690px;
+    left: 950px;
     
 }
 .under {
